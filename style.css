@@ -94,7 +94,7 @@ strong {
 #toggle-explainer {
   background: none;
   border: none;
-  font-family: 'DM Sans', sans-serif;
+  font-family: "DM Sans", sans-serif;
   font-size: 0.95rem;
   font-weight: 600;
   color: var(--accent);
@@ -105,6 +105,24 @@ strong {
 
 #toggle-explainer:hover {
   opacity: 0.75;
+}
+
+.byline {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  margin-bottom: 28px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.byline a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.byline a:hover {
+  text-decoration: underline;
 }
 
 /* Search */

@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kentucky Food Insecurity</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Kentucky<br /><span>Food Insecurity</span></h1>
+
+      <p class="intro">
+        This site tracks food insecurity across all 120 counties in Kentucky
+        from 2020 to 2023, using data from Feeding America's Map the Meal Gap
+        study.
+      </p>
+
+      <button id="toggle-explainer">About This Data ▸</button>
+      <div id="explainer">
+        <h2>What is food insecurity?</h2>
+        <p>
+          A person is food insecure when they cannot consistently afford enough
+          food for an active, healthy life — often because they must choose
+          between groceries and other basic needs like rent, utilities, or
+          medical bills.
+        </p>
+
+        <h2>How are the rates calculated?</h2>
+        <p>
+          The <strong>food insecurity rate</strong> is the estimated percentage
+          of all residents in a county who are food insecure. The
+          <strong>child food insecurity rate</strong> is the estimated
+          percentage of children under 18 who are food insecure. Both are
+          modeled estimates produced by Feeding America using county-level data
+          on poverty, unemployment, homeownership, and disability — not direct
+          counts.
+        </p>
+      </div>
+
+      <input id="search" placeholder="Search counties..." />
+
+      <div class="legend">
+        <div class="legend-item">
+          <div class="legend-dot above"></div>
+          Above Kentucky average (18.4%)
+        </div>
+        <div class="legend-item">
+          <div class="legend-dot below"></div>
+          Below Kentucky average (18.4%)
+        </div>
+      </div>
+
+      <ul id="list"></ul>
+
+      <footer>
+        <p>Data source: Feeding America, Map the Meal Gap.</p>
+        <p>
+          Gundersen, C., Strayer, M., Dewey, A., Hake, M., &amp; Engelhard, E.
+          (2022). Map the Meal Gap 2022: An Analysis of County and Congressional
+          District Food Insecurity and County Food Cost in the United States in
+          2020. Feeding America.
+        </p>
+        <p>
+          Gundersen, C., Strayer, M., Dewey, A., Hake, M., &amp; Engelhard, E.
+          (2023). Map the Meal Gap 2023: An Analysis of County and Congressional
+          District Food Insecurity and County Food Cost in the United States in
+          2021. Feeding America.
+        </p>
+        <p>
+          Dewey, A., Harris, V., Hake, M., &amp; Engelhard, E. (2024). Map the
+          Meal Gap 2024: An Analysis of County and Congressional District Food
+          Insecurity and County Food Cost in the United States in 2022. Feeding
+          America.
+        </p>
+        <p>
+          Ribar, D.C., Harris, V., Dewey, A., Dawes, S., and Engelhard, E.
+          (2025). Map the Meal Gap: An Analysis of Local Food Insecurity and
+          Food Costs in the United States in 2023. Feeding America National
+          Organization.
+        </p>
+      </footer>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,2642 @@
+[
+  {
+    "fips": "21001",
+    "county": "Adair",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 15.2,
+        "childFoodInsecurityRate": 18.2
+      },
+      "2021": {
+        "foodInsecurityRate": 13.7,
+        "childFoodInsecurityRate": 15.7
+      },
+      "2022": {
+        "foodInsecurityRate": 18.0,
+        "childFoodInsecurityRate": 24.8
+      },
+      "2023": {
+        "foodInsecurityRate": 18.5,
+        "childFoodInsecurityRate": 24.2
+      }
+    }
+  },
+  {
+    "fips": "21003",
+    "county": "Allen",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 13.7,
+        "childFoodInsecurityRate": 17.2
+      },
+      "2021": {
+        "foodInsecurityRate": 12.8,
+        "childFoodInsecurityRate": 15.3
+      },
+      "2022": {
+        "foodInsecurityRate": 15.8,
+        "childFoodInsecurityRate": 20.9
+      },
+      "2023": {
+        "foodInsecurityRate": 16.1,
+        "childFoodInsecurityRate": 19.8
+      }
+    }
+  },
+  {
+    "fips": "21005",
+    "county": "Anderson",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 13.1,
+        "childFoodInsecurityRate": 15.3
+      },
+      "2021": {
+        "foodInsecurityRate": 11.2,
+        "childFoodInsecurityRate": 12.1
+      },
+      "2022": {
+        "foodInsecurityRate": 14.3,
+        "childFoodInsecurityRate": 18.1
+      },
+      "2023": {
+        "foodInsecurityRate": 14.7,
+        "childFoodInsecurityRate": 17.2
+      }
+    }
+  },
+  {
+    "fips": "21007",
+    "county": "Ballard",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 13.4,
+        "childFoodInsecurityRate": 19.2
+      },
+      "2021": {
+        "foodInsecurityRate": 11.2,
+        "childFoodInsecurityRate": 14.6
+      },
+      "2022": {
+        "foodInsecurityRate": 14.9,
+        "childFoodInsecurityRate": 20.0
+      },
+      "2023": {
+        "foodInsecurityRate": 15.2,
+        "childFoodInsecurityRate": 19.2
+      }
+    }
+  },
+  {
+    "fips": "21009",
+    "county": "Barren",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 17.8,
+        "childFoodInsecurityRate": 23.8
+      },
+      "2021": {
+        "foodInsecurityRate": 16.1,
+        "childFoodInsecurityRate": 20.6
+      },
+      "2022": {
+        "foodInsecurityRate": 18.2,
+        "childFoodInsecurityRate": 24.7
+      },
+      "2023": {
+        "foodInsecurityRate": 19.4,
+        "childFoodInsecurityRate": 25.4
+      }
+    }
+  },
+  {
+    "fips": "21011",
+    "county": "Bath",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 18.6,
+        "childFoodInsecurityRate": 22.1
+      },
+      "2021": {
+        "foodInsecurityRate": 16.4,
+        "childFoodInsecurityRate": 17.7
+      },
+      "2022": {
+        "foodInsecurityRate": 19.4,
+        "childFoodInsecurityRate": 24.3
+      },
+      "2023": {
+        "foodInsecurityRate": 20.2,
+        "childFoodInsecurityRate": 24.3
+      }
+    }
+  },
+  {
+    "fips": "21013",
+    "county": "Bell",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 21.9,
+        "childFoodInsecurityRate": 26.1
+      },
+      "2021": {
+        "foodInsecurityRate": 19.6,
+        "childFoodInsecurityRate": 21.5
+      },
+      "2022": {
+        "foodInsecurityRate": 22.1,
+        "childFoodInsecurityRate": 27.5
+      },
+      "2023": {
+        "foodInsecurityRate": 23.4,
+        "childFoodInsecurityRate": 28.6
+      }
+    }
+  },
+  {
+    "fips": "21015",
+    "county": "Boone",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 7.9,
+        "childFoodInsecurityRate": 8.7
+      },
+      "2021": {
+        "foodInsecurityRate": 7.1,
+        "childFoodInsecurityRate": 6.3
+      },
+      "2022": {
+        "foodInsecurityRate": 10.3,
+        "childFoodInsecurityRate": 11.0
+      },
+      "2023": {
+        "foodInsecurityRate": 11.3,
+        "childFoodInsecurityRate": 11.0
+      }
+    }
+  },
+  {
+    "fips": "21017",
+    "county": "Bourbon",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 12.6,
+        "childFoodInsecurityRate": 14.5
+      },
+      "2021": {
+        "foodInsecurityRate": 11.7,
+        "childFoodInsecurityRate": 10.8
+      },
+      "2022": {
+        "foodInsecurityRate": 15.8,
+        "childFoodInsecurityRate": 18.4
+      },
+      "2023": {
+        "foodInsecurityRate": 16.3,
+        "childFoodInsecurityRate": 16.9
+      }
+    }
+  },
+  {
+    "fips": "21019",
+    "county": "Boyd",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 16.0,
+        "childFoodInsecurityRate": 19.9
+      },
+      "2021": {
+        "foodInsecurityRate": 15.5,
+        "childFoodInsecurityRate": 18.7
+      },
+      "2022": {
+        "foodInsecurityRate": 17.8,
+        "childFoodInsecurityRate": 22.9
+      },
+      "2023": {
+        "foodInsecurityRate": 18.7,
+        "childFoodInsecurityRate": 23.4
+      }
+    }
+  },
+  {
+    "fips": "21021",
+    "county": "Boyle",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 13.4,
+        "childFoodInsecurityRate": 16.0
+      },
+      "2021": {
+        "foodInsecurityRate": 11.8,
+        "childFoodInsecurityRate": 12.6
+      },
+      "2022": {
+        "foodInsecurityRate": 14.9,
+        "childFoodInsecurityRate": 19.0
+      },
+      "2023": {
+        "foodInsecurityRate": 15.5,
+        "childFoodInsecurityRate": 18.7
+      }
+    }
+  },
+  {
+    "fips": "21023",
+    "county": "Bracken",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 14.4,
+        "childFoodInsecurityRate": 15.1
+      },
+      "2021": {
+        "foodInsecurityRate": 12.7,
+        "childFoodInsecurityRate": 15.3
+      },
+      "2022": {
+        "foodInsecurityRate": 15.7,
+        "childFoodInsecurityRate": 21.3
+      },
+      "2023": {
+        "foodInsecurityRate": 17.7,
+        "childFoodInsecurityRate": 25.0
+      }
+    }
+  },
+  {
+    "fips": "21025",
+    "county": "Breathitt",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 24.5,
+        "childFoodInsecurityRate": 30.7
+      },
+      "2021": {
+        "foodInsecurityRate": 22.6,
+        "childFoodInsecurityRate": 27.0
+      },
+      "2022": {
+        "foodInsecurityRate": 24.2,
+        "childFoodInsecurityRate": 31.1
+      },
+      "2023": {
+        "foodInsecurityRate": 24.9,
+        "childFoodInsecurityRate": 31.6
+      }
+    }
+  },
+  {
+    "fips": "21027",
+    "county": "Breckinridge",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 14.7,
+        "childFoodInsecurityRate": 16.9
+      },
+      "2021": {
+        "foodInsecurityRate": 13.8,
+        "childFoodInsecurityRate": 15.5
+      },
+      "2022": {
+        "foodInsecurityRate": 18.5,
+        "childFoodInsecurityRate": 23.5
+      },
+      "2023": {
+        "foodInsecurityRate": 18.6,
+        "childFoodInsecurityRate": 22.9
+      }
+    }
+  },
+  {
+    "fips": "21029",
+    "county": "Bullitt",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 10.4,
+        "childFoodInsecurityRate": 12.2
+      },
+      "2021": {
+        "foodInsecurityRate": 9.7,
+        "childFoodInsecurityRate": 10.1
+      },
+      "2022": {
+        "foodInsecurityRate": 12.9,
+        "childFoodInsecurityRate": 15.9
+      },
+      "2023": {
+        "foodInsecurityRate": 13.1,
+        "childFoodInsecurityRate": 15.3
+      }
+    }
+  },
+  {
+    "fips": "21031",
+    "county": "Butler",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 14.8,
+        "childFoodInsecurityRate": 17.9
+      },
+      "2021": {
+        "foodInsecurityRate": 13.7,
+        "childFoodInsecurityRate": 15.1
+      },
+      "2022": {
+        "foodInsecurityRate": 17.7,
+        "childFoodInsecurityRate": 21.8
+      },
+      "2023": {
+        "foodInsecurityRate": 17.8,
+        "childFoodInsecurityRate": 20.9
+      }
+    }
+  },
+  {
+    "fips": "21033",
+    "county": "Caldwell",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 15.5,
+        "childFoodInsecurityRate": 21.1
+      },
+      "2021": {
+        "foodInsecurityRate": 13.6,
+        "childFoodInsecurityRate": 15.6
+      },
+      "2022": {
+        "foodInsecurityRate": 17.3,
+        "childFoodInsecurityRate": 23.2
+      },
+      "2023": {
+        "foodInsecurityRate": 17.3,
+        "childFoodInsecurityRate": 22.1
+      }
+    }
+  },
+  {
+    "fips": "21035",
+    "county": "Calloway",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 14.3,
+        "childFoodInsecurityRate": 16.5
+      },
+      "2021": {
+        "foodInsecurityRate": 13.2,
+        "childFoodInsecurityRate": 13.8
+      },
+      "2022": {
+        "foodInsecurityRate": 16.4,
+        "childFoodInsecurityRate": 20.0
+      },
+      "2023": {
+        "foodInsecurityRate": 16.5,
+        "childFoodInsecurityRate": 19.6
+      }
+    }
+  },
+  {
+    "fips": "21037",
+    "county": "Campbell",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 10.7,
+        "childFoodInsecurityRate": 10.2
+      },
+      "2021": {
+        "foodInsecurityRate": 9.8,
+        "childFoodInsecurityRate": 8.0
+      },
+      "2022": {
+        "foodInsecurityRate": 12.9,
+        "childFoodInsecurityRate": 13.3
+      },
+      "2023": {
+        "foodInsecurityRate": 13.5,
+        "childFoodInsecurityRate": 13.2
+      }
+    }
+  },
+  {
+    "fips": "21039",
+    "county": "Carlisle",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 12.3,
+        "childFoodInsecurityRate": 13.6
+      },
+      "2021": {
+        "foodInsecurityRate": 12.0,
+        "childFoodInsecurityRate": 13.8
+      },
+      "2022": {
+        "foodInsecurityRate": 16.1,
+        "childFoodInsecurityRate": 21.3
+      },
+      "2023": {
+        "foodInsecurityRate": 15.2,
+        "childFoodInsecurityRate": 21.0
+      }
+    }
+  },
+  {
+    "fips": "21041",
+    "county": "Carroll",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 16.1,
+        "childFoodInsecurityRate": 21.6
+      },
+      "2021": {
+        "foodInsecurityRate": 14.3,
+        "childFoodInsecurityRate": 17.7
+      },
+      "2022": {
+        "foodInsecurityRate": 16.8,
+        "childFoodInsecurityRate": 22.3
+      },
+      "2023": {
+        "foodInsecurityRate": 17.6,
+        "childFoodInsecurityRate": 22.3
+      }
+    }
+  },
+  {
+    "fips": "21043",
+    "county": "Carter",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 18.4,
+        "childFoodInsecurityRate": 22.8
+      },
+      "2021": {
+        "foodInsecurityRate": 19.3,
+        "childFoodInsecurityRate": 22.3
+      },
+      "2022": {
+        "foodInsecurityRate": 20.7,
+        "childFoodInsecurityRate": 24.7
+      },
+      "2023": {
+        "foodInsecurityRate": 19.8,
+        "childFoodInsecurityRate": 23.5
+      }
+    }
+  },
+  {
+    "fips": "21045",
+    "county": "Casey",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 17.3,
+        "childFoodInsecurityRate": 20.9
+      },
+      "2021": {
+        "foodInsecurityRate": 15.0,
+        "childFoodInsecurityRate": 16.5
+      },
+      "2022": {
+        "foodInsecurityRate": 19.1,
+        "childFoodInsecurityRate": 23.8
+      },
+      "2023": {
+        "foodInsecurityRate": 18.9,
+        "childFoodInsecurityRate": 22.1
+      }
+    }
+  },
+  {
+    "fips": "21047",
+    "county": "Christian",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 15.4,
+        "childFoodInsecurityRate": 22.2
+      },
+      "2021": {
+        "foodInsecurityRate": 13.4,
+        "childFoodInsecurityRate": 18.9
+      },
+      "2022": {
+        "foodInsecurityRate": 16.3,
+        "childFoodInsecurityRate": 26.3
+      },
+      "2023": {
+        "foodInsecurityRate": 17.9,
+        "childFoodInsecurityRate": 26.1
+      }
+    }
+  },
+  {
+    "fips": "21049",
+    "county": "Clark",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 13.9,
+        "childFoodInsecurityRate": 18.2
+      },
+      "2021": {
+        "foodInsecurityRate": 11.9,
+        "childFoodInsecurityRate": 14.3
+      },
+      "2022": {
+        "foodInsecurityRate": 15.4,
+        "childFoodInsecurityRate": 20.7
+      },
+      "2023": {
+        "foodInsecurityRate": 15.7,
+        "childFoodInsecurityRate": 20.2
+      }
+    }
+  },
+  {
+    "fips": "21051",
+    "county": "Clay",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 23.5,
+        "childFoodInsecurityRate": 29.4
+      },
+      "2021": {
+        "foodInsecurityRate": 21.6,
+        "childFoodInsecurityRate": 26.4
+      },
+      "2022": {
+        "foodInsecurityRate": 23.7,
+        "childFoodInsecurityRate": 31.2
+      },
+      "2023": {
+        "foodInsecurityRate": 24.4,
+        "childFoodInsecurityRate": 32.9
+      }
+    }
+  },
+  {
+    "fips": "21053",
+    "county": "Clinton",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 15.9,
+        "childFoodInsecurityRate": 19.7
+      },
+      "2021": {
+        "foodInsecurityRate": 15.8,
+        "childFoodInsecurityRate": 19.9
+      },
+      "2022": {
+        "foodInsecurityRate": 19.0,
+        "childFoodInsecurityRate": 27.9
+      },
+      "2023": {
+        "foodInsecurityRate": 18.9,
+        "childFoodInsecurityRate": 23.0
+      }
+    }
+  },
+  {
+    "fips": "21055",
+    "county": "Crittenden",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 13.3,
+        "childFoodInsecurityRate": 16.7
+      },
+      "2021": {
+        "foodInsecurityRate": 13.7,
+        "childFoodInsecurityRate": 17.3
+      },
+      "2022": {
+        "foodInsecurityRate": 18.3,
+        "childFoodInsecurityRate": 27.0
+      },
+      "2023": {
+        "foodInsecurityRate": 19.6,
+        "childFoodInsecurityRate": 28.9
+      }
+    }
+  },
+  {
+    "fips": "21057",
+    "county": "Cumberland",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 14.7,
+        "childFoodInsecurityRate": 13.9
+      },
+      "2021": {
+        "foodInsecurityRate": 14.8,
+        "childFoodInsecurityRate": 13.6
+      },
+      "2022": {
+        "foodInsecurityRate": 19.9,
+        "childFoodInsecurityRate": 22.5
+      },
+      "2023": {
+        "foodInsecurityRate": 23.6,
+        "childFoodInsecurityRate": 28.9
+      }
+    }
+  },
+  {
+    "fips": "21059",
+    "county": "Daviess",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 13.0,
+        "childFoodInsecurityRate": 16.1
+      },
+      "2021": {
+        "foodInsecurityRate": 11.5,
+        "childFoodInsecurityRate": 13.2
+      },
+      "2022": {
+        "foodInsecurityRate": 14.7,
+        "childFoodInsecurityRate": 18.8
+      },
+      "2023": {
+        "foodInsecurityRate": 16.4,
+        "childFoodInsecurityRate": 20.4
+      }
+    }
+  },
+  {
+    "fips": "21061",
+    "county": "Edmonson",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 15.8,
+        "childFoodInsecurityRate": 19.4
+      },
+      "2021": {
+        "foodInsecurityRate": 14.1,
+        "childFoodInsecurityRate": 13.7
+      },
+      "2022": {
+        "foodInsecurityRate": 17.8,
+        "childFoodInsecurityRate": 20.9
+      },
+      "2023": {
+        "foodInsecurityRate": 18.0,
+        "childFoodInsecurityRate": 22.5
+      }
+    }
+  },
+  {
+    "fips": "21063",
+    "county": "Elliott",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 20.8,
+        "childFoodInsecurityRate": 26.7
+      },
+      "2021": {
+        "foodInsecurityRate": 19.7,
+        "childFoodInsecurityRate": 24.1
+      },
+      "2022": {
+        "foodInsecurityRate": 22.6,
+        "childFoodInsecurityRate": 30.7
+      },
+      "2023": {
+        "foodInsecurityRate": 23.3,
+        "childFoodInsecurityRate": 32.4
+      }
+    }
+  },
+  {
+    "fips": "21065",
+    "county": "Estill",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 20.2,
+        "childFoodInsecurityRate": 25.8
+      },
+      "2021": {
+        "foodInsecurityRate": 18.6,
+        "childFoodInsecurityRate": 21.8
+      },
+      "2022": {
+        "foodInsecurityRate": 21.2,
+        "childFoodInsecurityRate": 28.6
+      },
+      "2023": {
+        "foodInsecurityRate": 21.1,
+        "childFoodInsecurityRate": 26.5
+      }
+    }
+  },
+  {
+    "fips": "21067",
+    "county": "Fayette",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 11.4,
+        "childFoodInsecurityRate": 15.2
+      },
+      "2021": {
+        "foodInsecurityRate": 10.3,
+        "childFoodInsecurityRate": 12.8
+      },
+      "2022": {
+        "foodInsecurityRate": 13.1,
+        "childFoodInsecurityRate": 18.6
+      },
+      "2023": {
+        "foodInsecurityRate": 14.9,
+        "childFoodInsecurityRate": 19.2
+      }
+    }
+  },
+  {
+    "fips": "21069",
+    "county": "Fleming",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 16.3,
+        "childFoodInsecurityRate": 20.3
+      },
+      "2021": {
+        "foodInsecurityRate": 13.3,
+        "childFoodInsecurityRate": 15.4
+      },
+      "2022": {
+        "foodInsecurityRate": 18.1,
+        "childFoodInsecurityRate": 23.6
+      },
+      "2023": {
+        "foodInsecurityRate": 19.2,
+        "childFoodInsecurityRate": 23.2
+      }
+    }
+  },
+  {
+    "fips": "21071",
+    "county": "Floyd",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 20.8,
+        "childFoodInsecurityRate": 25.9
+      },
+      "2021": {
+        "foodInsecurityRate": 19.8,
+        "childFoodInsecurityRate": 23.3
+      },
+      "2022": {
+        "foodInsecurityRate": 22.8,
+        "childFoodInsecurityRate": 30.8
+      },
+      "2023": {
+        "foodInsecurityRate": 22.7,
+        "childFoodInsecurityRate": 30.2
+      }
+    }
+  },
+  {
+    "fips": "21073",
+    "county": "Franklin",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 12.4,
+        "childFoodInsecurityRate": 16.9
+      },
+      "2021": {
+        "foodInsecurityRate": 11.4,
+        "childFoodInsecurityRate": 14.5
+      },
+      "2022": {
+        "foodInsecurityRate": 14.3,
+        "childFoodInsecurityRate": 21.0
+      },
+      "2023": {
+        "foodInsecurityRate": 15.3,
+        "childFoodInsecurityRate": 21.4
+      }
+    }
+  },
+  {
+    "fips": "21075",
+    "county": "Fulton",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 17.1,
+        "childFoodInsecurityRate": 28.1
+      },
+      "2021": {
+        "foodInsecurityRate": 14.9,
+        "childFoodInsecurityRate": 24.0
+      },
+      "2022": {
+        "foodInsecurityRate": 19.6,
+        "childFoodInsecurityRate": 34.5
+      },
+      "2023": {
+        "foodInsecurityRate": 21.0,
+        "childFoodInsecurityRate": 36.1
+      }
+    }
+  },
+  {
+    "fips": "21077",
+    "county": "Gallatin",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 12.4,
+        "childFoodInsecurityRate": 14.9
+      },
+      "2021": {
+        "foodInsecurityRate": 12.7,
+        "childFoodInsecurityRate": 12.5
+      },
+      "2022": {
+        "foodInsecurityRate": 15.8,
+        "childFoodInsecurityRate": 18.5
+      },
+      "2023": {
+        "foodInsecurityRate": 15.6,
+        "childFoodInsecurityRate": 18.3
+      }
+    }
+  },
+  {
+    "fips": "21079",
+    "county": "Garrard",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 11.4,
+        "childFoodInsecurityRate": 15.8
+      },
+      "2021": {
+        "foodInsecurityRate": 11.1,
+        "childFoodInsecurityRate": 14.6
+      },
+      "2022": {
+        "foodInsecurityRate": 14.8,
+        "childFoodInsecurityRate": 20.2
+      },
+      "2023": {
+        "foodInsecurityRate": 16.8,
+        "childFoodInsecurityRate": 22.0
+      }
+    }
+  },
+  {
+    "fips": "21081",
+    "county": "Grant",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 12.7,
+        "childFoodInsecurityRate": 14.8
+      },
+      "2021": {
+        "foodInsecurityRate": 11.1,
+        "childFoodInsecurityRate": 11.7
+      },
+      "2022": {
+        "foodInsecurityRate": 14.5,
+        "childFoodInsecurityRate": 17.1
+      },
+      "2023": {
+        "foodInsecurityRate": 14.9,
+        "childFoodInsecurityRate": 17.1
+      }
+    }
+  },
+  {
+    "fips": "21083",
+    "county": "Graves",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 14.4,
+        "childFoodInsecurityRate": 18.7
+      },
+      "2021": {
+        "foodInsecurityRate": 13.1,
+        "childFoodInsecurityRate": 15.4
+      },
+      "2022": {
+        "foodInsecurityRate": 17.1,
+        "childFoodInsecurityRate": 21.8
+      },
+      "2023": {
+        "foodInsecurityRate": 18.2,
+        "childFoodInsecurityRate": 21.9
+      }
+    }
+  },
+  {
+    "fips": "21085",
+    "county": "Grayson",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 17.6,
+        "childFoodInsecurityRate": 22.0
+      },
+      "2021": {
+        "foodInsecurityRate": 16.1,
+        "childFoodInsecurityRate": 19.1
+      },
+      "2022": {
+        "foodInsecurityRate": 17.9,
+        "childFoodInsecurityRate": 23.3
+      },
+      "2023": {
+        "foodInsecurityRate": 18.3,
+        "childFoodInsecurityRate": 24.3
+      }
+    }
+  },
+  {
+    "fips": "21087",
+    "county": "Green",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 17.3,
+        "childFoodInsecurityRate": 20.5
+      },
+      "2021": {
+        "foodInsecurityRate": 16.4,
+        "childFoodInsecurityRate": 18.1
+      },
+      "2022": {
+        "foodInsecurityRate": 19.0,
+        "childFoodInsecurityRate": 25.1
+      },
+      "2023": {
+        "foodInsecurityRate": 19.5,
+        "childFoodInsecurityRate": 25.1
+      }
+    }
+  },
+  {
+    "fips": "21089",
+    "county": "Greenup",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 15.1,
+        "childFoodInsecurityRate": 20.3
+      },
+      "2021": {
+        "foodInsecurityRate": 13.4,
+        "childFoodInsecurityRate": 15.6
+      },
+      "2022": {
+        "foodInsecurityRate": 16.6,
+        "childFoodInsecurityRate": 20.5
+      },
+      "2023": {
+        "foodInsecurityRate": 17.2,
+        "childFoodInsecurityRate": 20.3
+      }
+    }
+  },
+  {
+    "fips": "21091",
+    "county": "Hancock",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 12.3,
+        "childFoodInsecurityRate": 14.7
+      },
+      "2021": {
+        "foodInsecurityRate": 10.4,
+        "childFoodInsecurityRate": 12.1
+      },
+      "2022": {
+        "foodInsecurityRate": 15.2,
+        "childFoodInsecurityRate": 20.2
+      },
+      "2023": {
+        "foodInsecurityRate": 16.5,
+        "childFoodInsecurityRate": 21.3
+      }
+    }
+  },
+  {
+    "fips": "21093",
+    "county": "Hardin",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 11.9,
+        "childFoodInsecurityRate": 16.2
+      },
+      "2021": {
+        "foodInsecurityRate": 10.4,
+        "childFoodInsecurityRate": 13.0
+      },
+      "2022": {
+        "foodInsecurityRate": 13.9,
+        "childFoodInsecurityRate": 19.6
+      },
+      "2023": {
+        "foodInsecurityRate": 15.2,
+        "childFoodInsecurityRate": 19.7
+      }
+    }
+  },
+  {
+    "fips": "21095",
+    "county": "Harlan",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 25.4,
+        "childFoodInsecurityRate": 31.6
+      },
+      "2021": {
+        "foodInsecurityRate": 23.0,
+        "childFoodInsecurityRate": 27.4
+      },
+      "2022": {
+        "foodInsecurityRate": 24.1,
+        "childFoodInsecurityRate": 32.3
+      },
+      "2023": {
+        "foodInsecurityRate": 23.6,
+        "childFoodInsecurityRate": 30.3
+      }
+    }
+  },
+  {
+    "fips": "21097",
+    "county": "Harrison",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 13.8,
+        "childFoodInsecurityRate": 16.6
+      },
+      "2021": {
+        "foodInsecurityRate": 12.6,
+        "childFoodInsecurityRate": 13.8
+      },
+      "2022": {
+        "foodInsecurityRate": 15.5,
+        "childFoodInsecurityRate": 19.0
+      },
+      "2023": {
+        "foodInsecurityRate": 16.8,
+        "childFoodInsecurityRate": 18.8
+      }
+    }
+  },
+  {
+    "fips": "21099",
+    "county": "Hart",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 16.1,
+        "childFoodInsecurityRate": 19.2
+      },
+      "2021": {
+        "foodInsecurityRate": 14.3,
+        "childFoodInsecurityRate": 15.9
+      },
+      "2022": {
+        "foodInsecurityRate": 18.2,
+        "childFoodInsecurityRate": 23.8
+      },
+      "2023": {
+        "foodInsecurityRate": 18.9,
+        "childFoodInsecurityRate": 24.5
+      }
+    }
+  },
+  {
+    "fips": "21101",
+    "county": "Henderson",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 15.1,
+        "childFoodInsecurityRate": 19.2
+      },
+      "2021": {
+        "foodInsecurityRate": 13.7,
+        "childFoodInsecurityRate": 16.2
+      },
+      "2022": {
+        "foodInsecurityRate": 17.0,
+        "childFoodInsecurityRate": 24.0
+      },
+      "2023": {
+        "foodInsecurityRate": 17.8,
+        "childFoodInsecurityRate": 24.2
+      }
+    }
+  },
+  {
+    "fips": "21103",
+    "county": "Henry",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 14.1,
+        "childFoodInsecurityRate": 17.9
+      },
+      "2021": {
+        "foodInsecurityRate": 12.7,
+        "childFoodInsecurityRate": 15.4
+      },
+      "2022": {
+        "foodInsecurityRate": 15.6,
+        "childFoodInsecurityRate": 20.7
+      },
+      "2023": {
+        "foodInsecurityRate": 16.4,
+        "childFoodInsecurityRate": 21.0
+      }
+    }
+  },
+  {
+    "fips": "21105",
+    "county": "Hickman",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 14.4,
+        "childFoodInsecurityRate": 21.2
+      },
+      "2021": {
+        "foodInsecurityRate": 13.6,
+        "childFoodInsecurityRate": 20.5
+      },
+      "2022": {
+        "foodInsecurityRate": 15.8,
+        "childFoodInsecurityRate": 24.7
+      },
+      "2023": {
+        "foodInsecurityRate": 18.8,
+        "childFoodInsecurityRate": 29.4
+      }
+    }
+  },
+  {
+    "fips": "21107",
+    "county": "Hopkins",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 15.7,
+        "childFoodInsecurityRate": 21.1
+      },
+      "2021": {
+        "foodInsecurityRate": 15.2,
+        "childFoodInsecurityRate": 19.9
+      },
+      "2022": {
+        "foodInsecurityRate": 18.3,
+        "childFoodInsecurityRate": 26.4
+      },
+      "2023": {
+        "foodInsecurityRate": 19.2,
+        "childFoodInsecurityRate": 26.4
+      }
+    }
+  },
+  {
+    "fips": "21109",
+    "county": "Jackson",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 21.9,
+        "childFoodInsecurityRate": 24.0
+      },
+      "2021": {
+        "foodInsecurityRate": 19.1,
+        "childFoodInsecurityRate": 21.0
+      },
+      "2022": {
+        "foodInsecurityRate": 20.1,
+        "childFoodInsecurityRate": 21.6
+      },
+      "2023": {
+        "foodInsecurityRate": 20.7,
+        "childFoodInsecurityRate": 21.0
+      }
+    }
+  },
+  {
+    "fips": "21111",
+    "county": "Jefferson",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 11.5,
+        "childFoodInsecurityRate": 18.5
+      },
+      "2021": {
+        "foodInsecurityRate": 10.0,
+        "childFoodInsecurityRate": 15.5
+      },
+      "2022": {
+        "foodInsecurityRate": 13.1,
+        "childFoodInsecurityRate": 22.1
+      },
+      "2023": {
+        "foodInsecurityRate": 14.9,
+        "childFoodInsecurityRate": 22.0
+      }
+    }
+  },
+  {
+    "fips": "21113",
+    "county": "Jessamine",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 11.3,
+        "childFoodInsecurityRate": 13.5
+      },
+      "2021": {
+        "foodInsecurityRate": 10.4,
+        "childFoodInsecurityRate": 11.6
+      },
+      "2022": {
+        "foodInsecurityRate": 13.5,
+        "childFoodInsecurityRate": 17.5
+      },
+      "2023": {
+        "foodInsecurityRate": 13.7,
+        "childFoodInsecurityRate": 16.4
+      }
+    }
+  },
+  {
+    "fips": "21115",
+    "county": "Johnson",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 18.4,
+        "childFoodInsecurityRate": 19.5
+      },
+      "2021": {
+        "foodInsecurityRate": 17.6,
+        "childFoodInsecurityRate": 18.0
+      },
+      "2022": {
+        "foodInsecurityRate": 20.3,
+        "childFoodInsecurityRate": 25.4
+      },
+      "2023": {
+        "foodInsecurityRate": 21.9,
+        "childFoodInsecurityRate": 28.3
+      }
+    }
+  },
+  {
+    "fips": "21117",
+    "county": "Kenton",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 10.8,
+        "childFoodInsecurityRate": 12.2
+      },
+      "2021": {
+        "foodInsecurityRate": 10.1,
+        "childFoodInsecurityRate": 10.4
+      },
+      "2022": {
+        "foodInsecurityRate": 13.0,
+        "childFoodInsecurityRate": 16.1
+      },
+      "2023": {
+        "foodInsecurityRate": 13.9,
+        "childFoodInsecurityRate": 15.9
+      }
+    }
+  },
+  {
+    "fips": "21119",
+    "county": "Knott",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 22.2,
+        "childFoodInsecurityRate": 28.9
+      },
+      "2021": {
+        "foodInsecurityRate": 20.7,
+        "childFoodInsecurityRate": 24.8
+      },
+      "2022": {
+        "foodInsecurityRate": 22.5,
+        "childFoodInsecurityRate": 31.2
+      },
+      "2023": {
+        "foodInsecurityRate": 22.7,
+        "childFoodInsecurityRate": 30.0
+      }
+    }
+  },
+  {
+    "fips": "21121",
+    "county": "Knox",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 20.6,
+        "childFoodInsecurityRate": 23.9
+      },
+      "2021": {
+        "foodInsecurityRate": 20.5,
+        "childFoodInsecurityRate": 21.9
+      },
+      "2022": {
+        "foodInsecurityRate": 23.8,
+        "childFoodInsecurityRate": 30.8
+      },
+      "2023": {
+        "foodInsecurityRate": 25.7,
+        "childFoodInsecurityRate": 33.4
+      }
+    }
+  },
+  {
+    "fips": "21123",
+    "county": "Larue",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 14.1,
+        "childFoodInsecurityRate": 17.7
+      },
+      "2021": {
+        "foodInsecurityRate": 12.9,
+        "childFoodInsecurityRate": 13.9
+      },
+      "2022": {
+        "foodInsecurityRate": 16.8,
+        "childFoodInsecurityRate": 21.6
+      },
+      "2023": {
+        "foodInsecurityRate": 17.5,
+        "childFoodInsecurityRate": 23.4
+      }
+    }
+  },
+  {
+    "fips": "21125",
+    "county": "Laurel",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 16.4,
+        "childFoodInsecurityRate": 19.4
+      },
+      "2021": {
+        "foodInsecurityRate": 14.8,
+        "childFoodInsecurityRate": 16.3
+      },
+      "2022": {
+        "foodInsecurityRate": 17.7,
+        "childFoodInsecurityRate": 21.7
+      },
+      "2023": {
+        "foodInsecurityRate": 18.8,
+        "childFoodInsecurityRate": 22.1
+      }
+    }
+  },
+  {
+    "fips": "21127",
+    "county": "Lawrence",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 18.5,
+        "childFoodInsecurityRate": 20.9
+      },
+      "2021": {
+        "foodInsecurityRate": 18.0,
+        "childFoodInsecurityRate": 20.2
+      },
+      "2022": {
+        "foodInsecurityRate": 21.4,
+        "childFoodInsecurityRate": 26.2
+      },
+      "2023": {
+        "foodInsecurityRate": 20.2,
+        "childFoodInsecurityRate": 24.4
+      }
+    }
+  },
+  {
+    "fips": "21129",
+    "county": "Lee",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 21.8,
+        "childFoodInsecurityRate": 27.6
+      },
+      "2021": {
+        "foodInsecurityRate": 20.0,
+        "childFoodInsecurityRate": 24.7
+      },
+      "2022": {
+        "foodInsecurityRate": 23.9,
+        "childFoodInsecurityRate": 31.7
+      },
+      "2023": {
+        "foodInsecurityRate": 23.8,
+        "childFoodInsecurityRate": 31.6
+      }
+    }
+  },
+  {
+    "fips": "21131",
+    "county": "Leslie",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 22.9,
+        "childFoodInsecurityRate": 29.6
+      },
+      "2021": {
+        "foodInsecurityRate": 21.4,
+        "childFoodInsecurityRate": 25.9
+      },
+      "2022": {
+        "foodInsecurityRate": 24.2,
+        "childFoodInsecurityRate": 32.5
+      },
+      "2023": {
+        "foodInsecurityRate": 23.2,
+        "childFoodInsecurityRate": 30.3
+      }
+    }
+  },
+  {
+    "fips": "21133",
+    "county": "Letcher",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 22.6,
+        "childFoodInsecurityRate": 27.8
+      },
+      "2021": {
+        "foodInsecurityRate": 21.4,
+        "childFoodInsecurityRate": 24.0
+      },
+      "2022": {
+        "foodInsecurityRate": 23.7,
+        "childFoodInsecurityRate": 29.9
+      },
+      "2023": {
+        "foodInsecurityRate": 23.5,
+        "childFoodInsecurityRate": 29.7
+      }
+    }
+  },
+  {
+    "fips": "21135",
+    "county": "Lewis",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 19.6,
+        "childFoodInsecurityRate": 24.0
+      },
+      "2021": {
+        "foodInsecurityRate": 17.6,
+        "childFoodInsecurityRate": 21.5
+      },
+      "2022": {
+        "foodInsecurityRate": 21.2,
+        "childFoodInsecurityRate": 27.4
+      },
+      "2023": {
+        "foodInsecurityRate": 20.7,
+        "childFoodInsecurityRate": 26.6
+      }
+    }
+  },
+  {
+    "fips": "21137",
+    "county": "Lincoln",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 15.4,
+        "childFoodInsecurityRate": 18.0
+      },
+      "2021": {
+        "foodInsecurityRate": 13.5,
+        "childFoodInsecurityRate": 14.0
+      },
+      "2022": {
+        "foodInsecurityRate": 16.2,
+        "childFoodInsecurityRate": 19.4
+      },
+      "2023": {
+        "foodInsecurityRate": 17.7,
+        "childFoodInsecurityRate": 20.4
+      }
+    }
+  },
+  {
+    "fips": "21139",
+    "county": "Livingston",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 14.0,
+        "childFoodInsecurityRate": 17.8
+      },
+      "2021": {
+        "foodInsecurityRate": 15.1,
+        "childFoodInsecurityRate": 20.4
+      },
+      "2022": {
+        "foodInsecurityRate": 18.4,
+        "childFoodInsecurityRate": 27.5
+      },
+      "2023": {
+        "foodInsecurityRate": 19.2,
+        "childFoodInsecurityRate": 28.4
+      }
+    }
+  },
+  {
+    "fips": "21141",
+    "county": "Logan",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 13.2,
+        "childFoodInsecurityRate": 17.0
+      },
+      "2021": {
+        "foodInsecurityRate": 12.2,
+        "childFoodInsecurityRate": 15.2
+      },
+      "2022": {
+        "foodInsecurityRate": 14.8,
+        "childFoodInsecurityRate": 20.6
+      },
+      "2023": {
+        "foodInsecurityRate": 15.3,
+        "childFoodInsecurityRate": 18.7
+      }
+    }
+  },
+  {
+    "fips": "21143",
+    "county": "Lyon",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 13.6,
+        "childFoodInsecurityRate": 17.2
+      },
+      "2021": {
+        "foodInsecurityRate": 13.4,
+        "childFoodInsecurityRate": 16.4
+      },
+      "2022": {
+        "foodInsecurityRate": 17.0,
+        "childFoodInsecurityRate": 23.9
+      },
+      "2023": {
+        "foodInsecurityRate": 17.9,
+        "childFoodInsecurityRate": 25.1
+      }
+    }
+  },
+  {
+    "fips": "21151",
+    "county": "Madison",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 13.5,
+        "childFoodInsecurityRate": 15.4
+      },
+      "2021": {
+        "foodInsecurityRate": 11.8,
+        "childFoodInsecurityRate": 11.8
+      },
+      "2022": {
+        "foodInsecurityRate": 14.8,
+        "childFoodInsecurityRate": 18.2
+      },
+      "2023": {
+        "foodInsecurityRate": 15.9,
+        "childFoodInsecurityRate": 19.2
+      }
+    }
+  },
+  {
+    "fips": "21153",
+    "county": "Magoffin",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 25.1,
+        "childFoodInsecurityRate": 32.6
+      },
+      "2021": {
+        "foodInsecurityRate": 23.1,
+        "childFoodInsecurityRate": 28.5
+      },
+      "2022": {
+        "foodInsecurityRate": 26.3,
+        "childFoodInsecurityRate": 35.8
+      },
+      "2023": {
+        "foodInsecurityRate": 27.0,
+        "childFoodInsecurityRate": 35.5
+      }
+    }
+  },
+  {
+    "fips": "21155",
+    "county": "Marion",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 16.2,
+        "childFoodInsecurityRate": 21.3
+      },
+      "2021": {
+        "foodInsecurityRate": 14.1,
+        "childFoodInsecurityRate": 17.0
+      },
+      "2022": {
+        "foodInsecurityRate": 18.0,
+        "childFoodInsecurityRate": 24.5
+      },
+      "2023": {
+        "foodInsecurityRate": 17.4,
+        "childFoodInsecurityRate": 22.4
+      }
+    }
+  },
+  {
+    "fips": "21157",
+    "county": "Marshall",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 11.0,
+        "childFoodInsecurityRate": 12.3
+      },
+      "2021": {
+        "foodInsecurityRate": 11.1,
+        "childFoodInsecurityRate": 11.4
+      },
+      "2022": {
+        "foodInsecurityRate": 14.1,
+        "childFoodInsecurityRate": 17.4
+      },
+      "2023": {
+        "foodInsecurityRate": 15.5,
+        "childFoodInsecurityRate": 19.7
+      }
+    }
+  },
+  {
+    "fips": "21159",
+    "county": "Martin",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 18.8,
+        "childFoodInsecurityRate": 22.2
+      },
+      "2021": {
+        "foodInsecurityRate": 18.7,
+        "childFoodInsecurityRate": 23.1
+      },
+      "2022": {
+        "foodInsecurityRate": 22.1,
+        "childFoodInsecurityRate": 29.3
+      },
+      "2023": {
+        "foodInsecurityRate": 24.8,
+        "childFoodInsecurityRate": 33.4
+      }
+    }
+  },
+  {
+    "fips": "21161",
+    "county": "Mason",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 14.7,
+        "childFoodInsecurityRate": 19.4
+      },
+      "2021": {
+        "foodInsecurityRate": 13.1,
+        "childFoodInsecurityRate": 16.6
+      },
+      "2022": {
+        "foodInsecurityRate": 16.7,
+        "childFoodInsecurityRate": 23.7
+      },
+      "2023": {
+        "foodInsecurityRate": 18.2,
+        "childFoodInsecurityRate": 24.3
+      }
+    }
+  },
+  {
+    "fips": "21145",
+    "county": "McCracken",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 12.9,
+        "childFoodInsecurityRate": 17.0
+      },
+      "2021": {
+        "foodInsecurityRate": 11.5,
+        "childFoodInsecurityRate": 14.3
+      },
+      "2022": {
+        "foodInsecurityRate": 14.5,
+        "childFoodInsecurityRate": 20.7
+      },
+      "2023": {
+        "foodInsecurityRate": 15.7,
+        "childFoodInsecurityRate": 20.0
+      }
+    }
+  },
+  {
+    "fips": "21147",
+    "county": "McCreary",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 20.2,
+        "childFoodInsecurityRate": 21.6
+      },
+      "2021": {
+        "foodInsecurityRate": 18.7,
+        "childFoodInsecurityRate": 18.9
+      },
+      "2022": {
+        "foodInsecurityRate": 22.9,
+        "childFoodInsecurityRate": 27.4
+      },
+      "2023": {
+        "foodInsecurityRate": 24.3,
+        "childFoodInsecurityRate": 28.1
+      }
+    }
+  },
+  {
+    "fips": "21149",
+    "county": "McLean",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 12.5,
+        "childFoodInsecurityRate": 14.2
+      },
+      "2021": {
+        "foodInsecurityRate": 10.9,
+        "childFoodInsecurityRate": 11.7
+      },
+      "2022": {
+        "foodInsecurityRate": 12.9,
+        "childFoodInsecurityRate": 14.4
+      },
+      "2023": {
+        "foodInsecurityRate": 14.3,
+        "childFoodInsecurityRate": 14.7
+      }
+    }
+  },
+  {
+    "fips": "21163",
+    "county": "Meade",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 12.3,
+        "childFoodInsecurityRate": 14.8
+      },
+      "2021": {
+        "foodInsecurityRate": 12.2,
+        "childFoodInsecurityRate": 14.2
+      },
+      "2022": {
+        "foodInsecurityRate": 15.1,
+        "childFoodInsecurityRate": 20.0
+      },
+      "2023": {
+        "foodInsecurityRate": 16.3,
+        "childFoodInsecurityRate": 21.4
+      }
+    }
+  },
+  {
+    "fips": "21165",
+    "county": "Menifee",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 17.5,
+        "childFoodInsecurityRate": 24.3
+      },
+      "2021": {
+        "foodInsecurityRate": 18.8,
+        "childFoodInsecurityRate": 24.3
+      },
+      "2022": {
+        "foodInsecurityRate": 21.5,
+        "childFoodInsecurityRate": 30.4
+      },
+      "2023": {
+        "foodInsecurityRate": 22.3,
+        "childFoodInsecurityRate": 30.9
+      }
+    }
+  },
+  {
+    "fips": "21167",
+    "county": "Mercer",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 12.8,
+        "childFoodInsecurityRate": 14.4
+      },
+      "2021": {
+        "foodInsecurityRate": 10.8,
+        "childFoodInsecurityRate": 11.0
+      },
+      "2022": {
+        "foodInsecurityRate": 13.2,
+        "childFoodInsecurityRate": 15.8
+      },
+      "2023": {
+        "foodInsecurityRate": 13.7,
+        "childFoodInsecurityRate": 16.5
+      }
+    }
+  },
+  {
+    "fips": "21169",
+    "county": "Metcalfe",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 16.8,
+        "childFoodInsecurityRate": 22.0
+      },
+      "2021": {
+        "foodInsecurityRate": 15.1,
+        "childFoodInsecurityRate": 17.3
+      },
+      "2022": {
+        "foodInsecurityRate": 18.7,
+        "childFoodInsecurityRate": 23.3
+      },
+      "2023": {
+        "foodInsecurityRate": 20.4,
+        "childFoodInsecurityRate": 26.8
+      }
+    }
+  },
+  {
+    "fips": "21171",
+    "county": "Monroe",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 16.8,
+        "childFoodInsecurityRate": 20.2
+      },
+      "2021": {
+        "foodInsecurityRate": 16.2,
+        "childFoodInsecurityRate": 20.1
+      },
+      "2022": {
+        "foodInsecurityRate": 18.6,
+        "childFoodInsecurityRate": 25.4
+      },
+      "2023": {
+        "foodInsecurityRate": 20.0,
+        "childFoodInsecurityRate": 25.6
+      }
+    }
+  },
+  {
+    "fips": "21173",
+    "county": "Montgomery",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 15.8,
+        "childFoodInsecurityRate": 18.6
+      },
+      "2021": {
+        "foodInsecurityRate": 14.6,
+        "childFoodInsecurityRate": 16.1
+      },
+      "2022": {
+        "foodInsecurityRate": 17.0,
+        "childFoodInsecurityRate": 22.0
+      },
+      "2023": {
+        "foodInsecurityRate": 17.3,
+        "childFoodInsecurityRate": 20.9
+      }
+    }
+  },
+  {
+    "fips": "21175",
+    "county": "Morgan",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 16.8,
+        "childFoodInsecurityRate": 19.9
+      },
+      "2021": {
+        "foodInsecurityRate": 16.8,
+        "childFoodInsecurityRate": 19.1
+      },
+      "2022": {
+        "foodInsecurityRate": 19.2,
+        "childFoodInsecurityRate": 24.6
+      },
+      "2023": {
+        "foodInsecurityRate": 19.1,
+        "childFoodInsecurityRate": 22.3
+      }
+    }
+  },
+  {
+    "fips": "21177",
+    "county": "Muhlenberg",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 14.9,
+        "childFoodInsecurityRate": 18.2
+      },
+      "2021": {
+        "foodInsecurityRate": 13.8,
+        "childFoodInsecurityRate": 16.8
+      },
+      "2022": {
+        "foodInsecurityRate": 17.1,
+        "childFoodInsecurityRate": 21.1
+      },
+      "2023": {
+        "foodInsecurityRate": 18.3,
+        "childFoodInsecurityRate": 23.5
+      }
+    }
+  },
+  {
+    "fips": "21179",
+    "county": "Nelson",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 10.0,
+        "childFoodInsecurityRate": 12.4
+      },
+      "2021": {
+        "foodInsecurityRate": 8.8,
+        "childFoodInsecurityRate": 9.7
+      },
+      "2022": {
+        "foodInsecurityRate": 12.3,
+        "childFoodInsecurityRate": 15.7
+      },
+      "2023": {
+        "foodInsecurityRate": 13.4,
+        "childFoodInsecurityRate": 16.8
+      }
+    }
+  },
+  {
+    "fips": "21181",
+    "county": "Nicholas",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 17.3,
+        "childFoodInsecurityRate": 18.6
+      },
+      "2021": {
+        "foodInsecurityRate": 14.8,
+        "childFoodInsecurityRate": 13.0
+      },
+      "2022": {
+        "foodInsecurityRate": 17.2,
+        "childFoodInsecurityRate": 19.4
+      },
+      "2023": {
+        "foodInsecurityRate": 18.5,
+        "childFoodInsecurityRate": 19.3
+      }
+    }
+  },
+  {
+    "fips": "21183",
+    "county": "Ohio",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 13.5,
+        "childFoodInsecurityRate": 18.1
+      },
+      "2021": {
+        "foodInsecurityRate": 12.3,
+        "childFoodInsecurityRate": 14.0
+      },
+      "2022": {
+        "foodInsecurityRate": 15.6,
+        "childFoodInsecurityRate": 19.8
+      },
+      "2023": {
+        "foodInsecurityRate": 16.0,
+        "childFoodInsecurityRate": 19.8
+      }
+    }
+  },
+  {
+    "fips": "21185",
+    "county": "Oldham",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 5.4,
+        "childFoodInsecurityRate": 4.0
+      },
+      "2021": {
+        "foodInsecurityRate": 5.0,
+        "childFoodInsecurityRate": 2.5
+      },
+      "2022": {
+        "foodInsecurityRate": 8.4,
+        "childFoodInsecurityRate": 7.3
+      },
+      "2023": {
+        "foodInsecurityRate": 8.9,
+        "childFoodInsecurityRate": 6.7
+      }
+    }
+  },
+  {
+    "fips": "21187",
+    "county": "Owen",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 13.6,
+        "childFoodInsecurityRate": 13.4
+      },
+      "2021": {
+        "foodInsecurityRate": 11.4,
+        "childFoodInsecurityRate": 10.7
+      },
+      "2022": {
+        "foodInsecurityRate": 14.4,
+        "childFoodInsecurityRate": 15.7
+      },
+      "2023": {
+        "foodInsecurityRate": 15.4,
+        "childFoodInsecurityRate": 16.4
+      }
+    }
+  },
+  {
+    "fips": "21189",
+    "county": "Owsley",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 21.7,
+        "childFoodInsecurityRate": 25.0
+      },
+      "2021": {
+        "foodInsecurityRate": 21.8,
+        "childFoodInsecurityRate": 22.4
+      },
+      "2022": {
+        "foodInsecurityRate": 25.2,
+        "childFoodInsecurityRate": 29.7
+      },
+      "2023": {
+        "foodInsecurityRate": 25.2,
+        "childFoodInsecurityRate": 27.1
+      }
+    }
+  },
+  {
+    "fips": "21191",
+    "county": "Pendleton",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 13.8,
+        "childFoodInsecurityRate": 15.3
+      },
+      "2021": {
+        "foodInsecurityRate": 13.5,
+        "childFoodInsecurityRate": 14.2
+      },
+      "2022": {
+        "foodInsecurityRate": 16.2,
+        "childFoodInsecurityRate": 19.1
+      },
+      "2023": {
+        "foodInsecurityRate": 16.3,
+        "childFoodInsecurityRate": 18.7
+      }
+    }
+  },
+  {
+    "fips": "21193",
+    "county": "Perry",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 18.1,
+        "childFoodInsecurityRate": 22.3
+      },
+      "2021": {
+        "foodInsecurityRate": 18.0,
+        "childFoodInsecurityRate": 20.8
+      },
+      "2022": {
+        "foodInsecurityRate": 21.4,
+        "childFoodInsecurityRate": 28.1
+      },
+      "2023": {
+        "foodInsecurityRate": 22.7,
+        "childFoodInsecurityRate": 30.2
+      }
+    }
+  },
+  {
+    "fips": "21195",
+    "county": "Pike",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 19.2,
+        "childFoodInsecurityRate": 23.8
+      },
+      "2021": {
+        "foodInsecurityRate": 18.7,
+        "childFoodInsecurityRate": 22.3
+      },
+      "2022": {
+        "foodInsecurityRate": 21.3,
+        "childFoodInsecurityRate": 27.7
+      },
+      "2023": {
+        "foodInsecurityRate": 22.5,
+        "childFoodInsecurityRate": 28.4
+      }
+    }
+  },
+  {
+    "fips": "21197",
+    "county": "Powell",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 17.3,
+        "childFoodInsecurityRate": 20.5
+      },
+      "2021": {
+        "foodInsecurityRate": 15.4,
+        "childFoodInsecurityRate": 17.3
+      },
+      "2022": {
+        "foodInsecurityRate": 19.1,
+        "childFoodInsecurityRate": 25.1
+      },
+      "2023": {
+        "foodInsecurityRate": 19.8,
+        "childFoodInsecurityRate": 25.9
+      }
+    }
+  },
+  {
+    "fips": "21199",
+    "county": "Pulaski",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 16.7,
+        "childFoodInsecurityRate": 19.8
+      },
+      "2021": {
+        "foodInsecurityRate": 15.4,
+        "childFoodInsecurityRate": 16.9
+      },
+      "2022": {
+        "foodInsecurityRate": 18.6,
+        "childFoodInsecurityRate": 23.4
+      },
+      "2023": {
+        "foodInsecurityRate": 19.3,
+        "childFoodInsecurityRate": 23.8
+      }
+    }
+  },
+  {
+    "fips": "21201",
+    "county": "Robertson",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 16.7,
+        "childFoodInsecurityRate": 17.6
+      },
+      "2021": {
+        "foodInsecurityRate": 13.6,
+        "childFoodInsecurityRate": 11.8
+      },
+      "2022": {
+        "foodInsecurityRate": 18.3,
+        "childFoodInsecurityRate": 19.3
+      },
+      "2023": {
+        "foodInsecurityRate": 20.4,
+        "childFoodInsecurityRate": 23.0
+      }
+    }
+  },
+  {
+    "fips": "21203",
+    "county": "Rockcastle",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 16.4,
+        "childFoodInsecurityRate": 20.2
+      },
+      "2021": {
+        "foodInsecurityRate": 15.7,
+        "childFoodInsecurityRate": 18.2
+      },
+      "2022": {
+        "foodInsecurityRate": 19.6,
+        "childFoodInsecurityRate": 25.3
+      },
+      "2023": {
+        "foodInsecurityRate": 20.4,
+        "childFoodInsecurityRate": 25.4
+      }
+    }
+  },
+  {
+    "fips": "21205",
+    "county": "Rowan",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 17.4,
+        "childFoodInsecurityRate": 20.5
+      },
+      "2021": {
+        "foodInsecurityRate": 15.8,
+        "childFoodInsecurityRate": 16.4
+      },
+      "2022": {
+        "foodInsecurityRate": 18.6,
+        "childFoodInsecurityRate": 22.8
+      },
+      "2023": {
+        "foodInsecurityRate": 19.4,
+        "childFoodInsecurityRate": 22.9
+      }
+    }
+  },
+  {
+    "fips": "21207",
+    "county": "Russell",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 16.6,
+        "childFoodInsecurityRate": 19.3
+      },
+      "2021": {
+        "foodInsecurityRate": 16.2,
+        "childFoodInsecurityRate": 17.2
+      },
+      "2022": {
+        "foodInsecurityRate": 19.1,
+        "childFoodInsecurityRate": 23.6
+      },
+      "2023": {
+        "foodInsecurityRate": 20.9,
+        "childFoodInsecurityRate": 24.5
+      }
+    }
+  },
+  {
+    "fips": "21209",
+    "county": "Scott",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 10.0,
+        "childFoodInsecurityRate": 11.5
+      },
+      "2021": {
+        "foodInsecurityRate": 8.9,
+        "childFoodInsecurityRate": 8.8
+      },
+      "2022": {
+        "foodInsecurityRate": 11.7,
+        "childFoodInsecurityRate": 13.9
+      },
+      "2023": {
+        "foodInsecurityRate": 13.3,
+        "childFoodInsecurityRate": 15.6
+      }
+    }
+  },
+  {
+    "fips": "21211",
+    "county": "Shelby",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 9.1,
+        "childFoodInsecurityRate": 11.1
+      },
+      "2021": {
+        "foodInsecurityRate": 8.4,
+        "childFoodInsecurityRate": 8.8
+      },
+      "2022": {
+        "foodInsecurityRate": 11.3,
+        "childFoodInsecurityRate": 13.5
+      },
+      "2023": {
+        "foodInsecurityRate": 12.3,
+        "childFoodInsecurityRate": 13.4
+      }
+    }
+  },
+  {
+    "fips": "21213",
+    "county": "Simpson",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 12.1,
+        "childFoodInsecurityRate": 15.3
+      },
+      "2021": {
+        "foodInsecurityRate": 10.2,
+        "childFoodInsecurityRate": 11.1
+      },
+      "2022": {
+        "foodInsecurityRate": 14.1,
+        "childFoodInsecurityRate": 18.5
+      },
+      "2023": {
+        "foodInsecurityRate": 15.9,
+        "childFoodInsecurityRate": 18.0
+      }
+    }
+  },
+  {
+    "fips": "21215",
+    "county": "Spencer",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 8.6,
+        "childFoodInsecurityRate": 8.4
+      },
+      "2021": {
+        "foodInsecurityRate": 7.5,
+        "childFoodInsecurityRate": 7.2
+      },
+      "2022": {
+        "foodInsecurityRate": 11.2,
+        "childFoodInsecurityRate": 13.1
+      },
+      "2023": {
+        "foodInsecurityRate": 12.0,
+        "childFoodInsecurityRate": 12.6
+      }
+    }
+  },
+  {
+    "fips": "21217",
+    "county": "Taylor",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 14.9,
+        "childFoodInsecurityRate": 18.1
+      },
+      "2021": {
+        "foodInsecurityRate": 13.0,
+        "childFoodInsecurityRate": 14.8
+      },
+      "2022": {
+        "foodInsecurityRate": 15.8,
+        "childFoodInsecurityRate": 20.3
+      },
+      "2023": {
+        "foodInsecurityRate": 17.8,
+        "childFoodInsecurityRate": 22.6
+      }
+    }
+  },
+  {
+    "fips": "21219",
+    "county": "Todd",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 14.1,
+        "childFoodInsecurityRate": 16.6
+      },
+      "2021": {
+        "foodInsecurityRate": 13.1,
+        "childFoodInsecurityRate": 15.8
+      },
+      "2022": {
+        "foodInsecurityRate": 16.3,
+        "childFoodInsecurityRate": 23.0
+      },
+      "2023": {
+        "foodInsecurityRate": 17.7,
+        "childFoodInsecurityRate": 23.5
+      }
+    }
+  },
+  {
+    "fips": "21221",
+    "county": "Trigg",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 14.0,
+        "childFoodInsecurityRate": 19.6
+      },
+      "2021": {
+        "foodInsecurityRate": 13.6,
+        "childFoodInsecurityRate": 18.5
+      },
+      "2022": {
+        "foodInsecurityRate": 17.4,
+        "childFoodInsecurityRate": 25.8
+      },
+      "2023": {
+        "foodInsecurityRate": 19.4,
+        "childFoodInsecurityRate": 27.5
+      }
+    }
+  },
+  {
+    "fips": "21223",
+    "county": "Trimble",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 14.7,
+        "childFoodInsecurityRate": 15.1
+      },
+      "2021": {
+        "foodInsecurityRate": 12.5,
+        "childFoodInsecurityRate": 10.8
+      },
+      "2022": {
+        "foodInsecurityRate": 15.3,
+        "childFoodInsecurityRate": 13.3
+      },
+      "2023": {
+        "foodInsecurityRate": 15.4,
+        "childFoodInsecurityRate": 14.5
+      }
+    }
+  },
+  {
+    "fips": "21225",
+    "county": "Union",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 14.4,
+        "childFoodInsecurityRate": 19.2
+      },
+      "2021": {
+        "foodInsecurityRate": 14.2,
+        "childFoodInsecurityRate": 18.3
+      },
+      "2022": {
+        "foodInsecurityRate": 18.7,
+        "childFoodInsecurityRate": 26.0
+      },
+      "2023": {
+        "foodInsecurityRate": 19.5,
+        "childFoodInsecurityRate": 26.3
+      }
+    }
+  },
+  {
+    "fips": "21227",
+    "county": "Warren",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 12.9,
+        "childFoodInsecurityRate": 16.8
+      },
+      "2021": {
+        "foodInsecurityRate": 11.6,
+        "childFoodInsecurityRate": 13.7
+      },
+      "2022": {
+        "foodInsecurityRate": 14.8,
+        "childFoodInsecurityRate": 20.0
+      },
+      "2023": {
+        "foodInsecurityRate": 15.9,
+        "childFoodInsecurityRate": 19.8
+      }
+    }
+  },
+  {
+    "fips": "21229",
+    "county": "Washington",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 12.5,
+        "childFoodInsecurityRate": 15.3
+      },
+      "2021": {
+        "foodInsecurityRate": 11.1,
+        "childFoodInsecurityRate": 11.1
+      },
+      "2022": {
+        "foodInsecurityRate": 14.7,
+        "childFoodInsecurityRate": 17.7
+      },
+      "2023": {
+        "foodInsecurityRate": 15.6,
+        "childFoodInsecurityRate": 18.1
+      }
+    }
+  },
+  {
+    "fips": "21231",
+    "county": "Wayne",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 16.1,
+        "childFoodInsecurityRate": 20.6
+      },
+      "2021": {
+        "foodInsecurityRate": 15.8,
+        "childFoodInsecurityRate": 20.2
+      },
+      "2022": {
+        "foodInsecurityRate": 20.6,
+        "childFoodInsecurityRate": 28.8
+      },
+      "2023": {
+        "foodInsecurityRate": 21.1,
+        "childFoodInsecurityRate": 28.6
+      }
+    }
+  },
+  {
+    "fips": "21233",
+    "county": "Webster",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 16.8,
+        "childFoodInsecurityRate": 20.3
+      },
+      "2021": {
+        "foodInsecurityRate": 14.9,
+        "childFoodInsecurityRate": 16.3
+      },
+      "2022": {
+        "foodInsecurityRate": 18.0,
+        "childFoodInsecurityRate": 23.1
+      },
+      "2023": {
+        "foodInsecurityRate": 17.8,
+        "childFoodInsecurityRate": 21.7
+      }
+    }
+  },
+  {
+    "fips": "21235",
+    "county": "Whitley",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 17.2,
+        "childFoodInsecurityRate": 18.5
+      },
+      "2021": {
+        "foodInsecurityRate": 16.3,
+        "childFoodInsecurityRate": 16.3
+      },
+      "2022": {
+        "foodInsecurityRate": 19.9,
+        "childFoodInsecurityRate": 23.4
+      },
+      "2023": {
+        "foodInsecurityRate": 21.0,
+        "childFoodInsecurityRate": 24.5
+      }
+    }
+  },
+  {
+    "fips": "21237",
+    "county": "Wolfe",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 25.9,
+        "childFoodInsecurityRate": 27.8
+      },
+      "2021": {
+        "foodInsecurityRate": 24.0,
+        "childFoodInsecurityRate": 25.5
+      },
+      "2022": {
+        "foodInsecurityRate": 27.3,
+        "childFoodInsecurityRate": 33.3
+      },
+      "2023": {
+        "foodInsecurityRate": 28.1,
+        "childFoodInsecurityRate": 35.5
+      }
+    }
+  },
+  {
+    "fips": "21239",
+    "county": "Woodford",
+    "data": {
+      "2020": {
+        "foodInsecurityRate": 9.9,
+        "childFoodInsecurityRate": 12.2
+      },
+      "2021": {
+        "foodInsecurityRate": 8.0,
+        "childFoodInsecurityRate": 7.8
+      },
+      "2022": {
+        "foodInsecurityRate": 11.7,
+        "childFoodInsecurityRate": 14.1
+      },
+      "2023": {
+        "foodInsecurityRate": 13.1,
+        "childFoodInsecurityRate": 15.1
+      }
+    }
+  }
+]

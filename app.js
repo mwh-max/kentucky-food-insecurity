@@ -57,7 +57,7 @@ getData();
 const button = document.getElementById("toggle-explainer");
 const explainer = document.getElementById("explainer");
 button.addEventListener("click", () => {
-  explainer.classList.toggle("explainer");
+  explainer.classList.toggle("expanded");
 });
 
 const search = document.getElementById("search");

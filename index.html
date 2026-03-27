@@ -47,6 +47,14 @@
       <button id="toggle-rate" aria-pressed="false">Show child rates</button>
 
       <div class="controls">
+        <label for="year" class="visually-hidden">Year</label>
+        <select id="year">
+          <option value="2023">2023</option>
+          <option value="2022">2022</option>
+          <option value="2021">2021</option>
+          <option value="2020">2020</option>
+        </select>
+
         <label for="sort" class="visually-hidden">Sort by</label>
         <select id="sort">
           <option value="alpha">Alphabetical</option>
@@ -61,6 +69,19 @@
       <p id="search-status" aria-live="polite"></p>
 
       <div id="summary" aria-live="polite"></div>
+
+      <div id="callout" hidden>
+        <div class="callout-item callout-improved">
+          <div class="callout-label">Most improved</div>
+          <div class="callout-county" id="callout-improved-county"></div>
+          <div class="callout-change" id="callout-improved-change"></div>
+        </div>
+        <div class="callout-item callout-worsened">
+          <div class="callout-label">Most worsened</div>
+          <div class="callout-county" id="callout-worsened-county"></div>
+          <div class="callout-change" id="callout-worsened-change"></div>
+        </div>
+      </div>
 
       <div class="legend">
         <div class="legend-item">

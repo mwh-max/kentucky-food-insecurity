@@ -126,6 +126,31 @@ strong {
   border-radius: 3px;
 }
 
+#toggle-rate {
+  background: none;
+  border: 1.5px solid var(--accent);
+  font-family: "DM Sans", sans-serif;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--accent);
+  cursor: pointer;
+  padding: 6px 14px;
+  border-radius: 20px;
+  margin-bottom: 16px;
+  transition: background 0.15s, color 0.15s;
+}
+
+#toggle-rate:hover,
+#toggle-rate[aria-pressed="true"] {
+  background: var(--accent);
+  color: var(--surface);
+}
+
+#toggle-rate:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
 .byline {
   font-size: 0.85rem;
   font-weight: 600;
@@ -199,6 +224,13 @@ strong {
   outline-offset: 2px;
 }
 
+#search-status {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin: -8px 0 12px;
+  min-height: 1.2em;
+}
+
 /* List */
 ul {
   list-style: none;
@@ -246,7 +278,7 @@ li.below-average {
 }
 
 /* Card summary row */
-li span {
+li > span {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -255,23 +287,47 @@ li span {
   font-size: 1rem;
 }
 
-li.above-average span {
+li.above-average > span {
   color: var(--above-text);
 }
 
-li.below-average span {
+li.below-average > span {
   color: var(--below-text);
 }
 
-li span::after {
+li > span::after {
   content: "▸";
   font-size: 0.85rem;
   opacity: 0.6;
   transition: transform 0.2s;
 }
 
-li.expanded span::after {
+li.expanded > span::after {
   transform: rotate(90deg);
+}
+
+.card-left {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.trend {
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.trend-up {
+  color: var(--above-border);
+}
+
+.trend-down {
+  color: var(--below-border);
+}
+
+.trend-flat {
+  color: var(--text-muted);
+  opacity: 0.7;
 }
 
 /* Expanded content */
@@ -357,7 +413,7 @@ footer p {
     padding: 28px 16px 60px;
   }
 
-  li span {
+  li > span {
     padding: 14px 16px;
     font-size: 0.95rem;
   }

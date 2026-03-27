@@ -44,6 +44,8 @@
         </p>
       </div>
 
+      <button id="toggle-rate" aria-pressed="false">Show child rates</button>
+
       <div class="controls">
         <label for="sort" class="visually-hidden">Sort by</label>
         <select id="sort">
@@ -56,16 +58,18 @@
         <input id="search" placeholder="Search counties..." />
       </div>
 
-      <div id="summary"></div>
+      <p id="search-status" aria-live="polite"></p>
+
+      <div id="summary" aria-live="polite"></div>
 
       <div class="legend">
         <div class="legend-item">
           <div class="legend-dot above" aria-hidden="true"></div>
-          Above Kentucky average (18.4%)
+          Above Kentucky average <span class="legend-avg">(18.4%)</span>
         </div>
         <div class="legend-item">
           <div class="legend-dot below" aria-hidden="true"></div>
-          Below Kentucky average (18.4%)
+          Below Kentucky average <span class="legend-avg">(18.4%)</span>
         </div>
       </div>
 

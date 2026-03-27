@@ -8,7 +8,7 @@
   </head>
   <body>
     <div class="container">
-      <h1>Kentucky <br /><span>Food Insecurity</span></h1>
+      <h1>Kentucky <span>Food Insecurity</span></h1>
 
       <p class="intro">
         This site tracks food insecurity across all 120 counties in Kentucky
@@ -30,7 +30,7 @@
         bills.
       </p>
 
-      <button id="toggle-explainer">How Rates Are Calculated</button>
+      <button id="toggle-explainer" aria-expanded="false" aria-controls="explainer">How Rates Are Calculated</button>
       <div id="explainer">
         <h2>How are the rates calculated?</h2>
         <p>
@@ -45,12 +45,14 @@
       </div>
 
       <div class="controls">
+        <label for="sort" class="visually-hidden">Sort by</label>
         <select id="sort">
           <option value="alpha">Alphabetical</option>
           <option value="high">Highest to Lowest</option>
           <option value="low">Lowest to Highest</option>
         </select>
 
+        <label for="search" class="visually-hidden">Search counties</label>
         <input id="search" placeholder="Search counties..." />
       </div>
 
@@ -58,11 +60,11 @@
 
       <div class="legend">
         <div class="legend-item">
-          <div class="legend-dot above"></div>
+          <div class="legend-dot above" aria-hidden="true"></div>
           Above Kentucky average (18.4%)
         </div>
         <div class="legend-item">
-          <div class="legend-dot below"></div>
+          <div class="legend-dot below" aria-hidden="true"></div>
           Below Kentucky average (18.4%)
         </div>
       </div>

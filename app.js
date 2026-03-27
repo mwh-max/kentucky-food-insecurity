@@ -114,44 +114,7 @@ function updateSummary() {
   const summary = document.getElementById("summary");
   const avg = getAverage();
   const count = counties.filter((county) => getCurrentRate(county) > avg).length;
-  const label = showChild ? "child food insecurity" : "food insecurity";
-  summary.textContent = `${count} of ${counties.length} counties are above the Kentucky average for ${label}`;
-}
-
-function updateCallout() {
-  const callout = document.getElementById("callout");
-  if (selectedYear === EARLIEST_YEAR || counties.length === 0) {
-    callout.hidden = true;
-    return;
-  }
-  callout.hidden = false;
-
-  const key = showChild ? "childFoodInsecurityRate" : "foodInsecurityRate";
-  let mostImproved = counties[0];
-  let mostWorsened = counties[0];
-
-  counties.forEach((county) => {
-    const diff = county.data[selectedYear][key] - county.data[EARLIEST_YEAR][key];
-    const bestDiff =
-      mostImproved.data[selectedYear][key] - mostImproved.data[EARLIEST_YEAR][key];
-    const worstDiff =
-      mostWorsened.data[selectedYear][key] - mostWorsened.data[EARLIEST_YEAR][key];
-    if (diff < bestDiff) mostImproved = county;
-    if (diff > worstDiff) mostWorsened = county;
-  });
-
-  const improvedDiff =
-    mostImproved.data[selectedYear][key] - mostImproved.data[EARLIEST_YEAR][key];
-  const worsenedDiff =
-    mostWorsened.data[selectedYear][key] - mostWorsened.data[EARLIEST_YEAR][key];
-
-  document.getElementById("callout-improved-county").textContent = mostImproved.county;
-  document.getElementById("callout-improved-change").textContent =
-    `${improvedDiff.toFixed(1)} pts since ${EARLIEST_YEAR}`;
-
-  document.getElementById("callout-worsened-county").textContent = mostWorsened.county;
-  document.getElementById("callout-worsened-change").textContent =
-    `+${worsenedDiff.toFixed(1)} pts since ${EARLIEST_YEAR}`;
+  summary.textContent = `${count} of ${counties.length} counties are above the Kentucky average`;
 }
 
 // Trend chart
@@ -381,7 +344,6 @@ async function getData() {
     applySortOrder();
     renderList(counties);
     updateSummary();
-    updateCallout();
   } catch (error) {
     console.error(error);
     document.getElementById("summary").textContent =
@@ -454,7 +416,6 @@ yearSelect.addEventListener("change", () => {
   applySortOrder();
   renderList(counties);
   updateSummary();
-  updateCallout();
   pushState();
 });
 
@@ -465,6 +426,5 @@ toggleRate.addEventListener("click", () => {
   applySortOrder();
   renderList(counties);
   updateSummary();
-  updateCallout();
   pushState();
 });

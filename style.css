@@ -241,57 +241,6 @@ strong {
   min-height: 1.2em;
 }
 
-#callout {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 12px;
-  margin-bottom: 20px;
-}
-
-.callout-item {
-  padding: 12px 16px;
-  border-radius: var(--radius);
-  border-left: 4px solid transparent;
-}
-
-.callout-improved {
-  background: var(--below-bg);
-  border-left-color: var(--below-border);
-}
-
-.callout-worsened {
-  background: var(--above-bg);
-  border-left-color: var(--above-border);
-}
-
-.callout-label {
-  font-size: 0.72rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  color: var(--text-muted);
-  margin-bottom: 4px;
-}
-
-.callout-county {
-  font-size: 0.95rem;
-  font-weight: 700;
-  margin-bottom: 2px;
-}
-
-.callout-improved .callout-county {
-  color: var(--below-text);
-}
-
-.callout-worsened .callout-county {
-  color: var(--above-text);
-}
-
-.callout-change {
-  font-size: 0.82rem;
-  color: var(--text-muted);
-}
-
 /* List */
 ul {
   list-style: none;
@@ -549,10 +498,6 @@ footer p {
 
   li div {
     padding: 0 16px 14px;
-  }
-
-  #callout {
-    grid-template-columns: 1fr;
   }
 
   #search {

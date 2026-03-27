@@ -401,7 +401,7 @@ mark {
 /* Expanded content */
 li div {
   display: none;
-  padding: 0 20px 16px;
+  padding: 12px 20px 16px;
   border-top: 1px solid rgba(0, 0, 0, 0.06);
 }
 
@@ -409,24 +409,85 @@ li.expanded div {
   display: block;
 }
 
-li div p {
-  font-size: 0.9rem;
-  padding: 8px 0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+/* Trend chart */
+.trend-chart {
+  width: 100%;
+  display: block;
+  overflow: visible;
+}
+
+.chart-grid {
+  stroke: rgba(0, 0, 0, 0.07);
+  stroke-width: 1;
+}
+
+.chart-bar-overall {
+  fill: var(--accent);
+  opacity: 0.85;
+}
+
+.chart-bar-child {
+  fill: var(--below-border);
+  opacity: 0.85;
+}
+
+.chart-avg-line {
+  stroke: var(--accent);
+  stroke-width: 1.5;
+  stroke-dasharray: 4 3;
+  opacity: 0.5;
+}
+
+.chart-avg-label {
+  font-size: 7px;
+  fill: var(--accent);
+  opacity: 0.7;
+  font-family: "DM Sans", sans-serif;
+}
+
+.chart-y-label {
+  font-size: 8px;
+  fill: var(--text-muted);
+  font-family: "DM Sans", sans-serif;
+}
+
+.chart-year-label {
+  font-size: 9px;
+  fill: var(--text-muted);
+  font-family: "DM Sans", sans-serif;
+}
+
+.chart-legend {
+  display: flex;
+  gap: 14px;
+  margin-top: 8px;
+}
+
+.chart-legend-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.75rem;
   color: var(--text-muted);
-  margin: 0;
 }
 
-li div p:last-child {
-  border-bottom: none;
+.chart-legend-item::before {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+  flex-shrink: 0;
 }
 
-li.above-average div p {
-  color: var(--above-text);
+.chart-legend-overall::before {
+  background: var(--accent);
+  opacity: 0.85;
 }
 
-li.below-average div p {
-  color: var(--below-text);
+.chart-legend-child::before {
+  background: var(--below-border);
+  opacity: 0.85;
 }
 
 /* Legend */

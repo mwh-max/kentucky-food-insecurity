@@ -1,13 +1,26 @@
+// DOM references
 const ul = document.getElementById("list");
 const searchStatus = document.getElementById("search-status");
+const search = document.getElementById("search");
+const sort = document.getElementById("sort");
+const yearSelect = document.getElementById("year");
+const toggleRate = document.getElementById("toggle-rate");
+const button = document.getElementById("toggle-explainer");
+const explainer = document.getElementById("explainer");
 
+// Constants
 const EARLIEST_YEAR = "2020";
 const KY_AVERAGE = 18.4;
+const VALID_YEARS = ["2020", "2021", "2022", "2023"];
+const VALID_SORTS = ["alpha", "high", "low"];
 
+// State
 let selectedYear = "2023";
 let yearlyAverages = {};
 let counties = [];
 let showChild = false;
+
+// Helpers
 
 function getCurrentRate(county) {
   const key = showChild ? "childFoodInsecurityRate" : "foodInsecurityRate";
@@ -42,6 +55,19 @@ function highlightMatch(text, term) {
   return frag;
 }
 
+function applySortOrder() {
+  const value = sort.value;
+  if (value === "high") {
+    counties.sort((a, b) => getCurrentRate(b) - getCurrentRate(a));
+  } else if (value === "low") {
+    counties.sort((a, b) => getCurrentRate(a) - getCurrentRate(b));
+  } else {
+    counties.sort((a, b) => a.county.localeCompare(b.county));
+  }
+}
+
+// Search
+
 function applySearch() {
   const term = search.value.toLowerCase();
   const items = ul.querySelectorAll("li");
@@ -75,11 +101,21 @@ function applySearch() {
   }
 }
 
+// Legend + summary + callout
+
 function updateLegend() {
   const avg = getAverage().toFixed(1);
   document.querySelectorAll(".legend-avg").forEach((el) => {
     el.textContent = `(${avg}%)`;
   });
+}
+
+function updateSummary() {
+  const summary = document.getElementById("summary");
+  const avg = getAverage();
+  const count = counties.filter((county) => getCurrentRate(county) > avg).length;
+  const label = showChild ? "child food insecurity" : "food insecurity";
+  summary.textContent = `${count} of ${counties.length} counties are above the Kentucky average for ${label}`;
 }
 
 function updateCallout() {
@@ -118,6 +154,128 @@ function updateCallout() {
     `+${worsenedDiff.toFixed(1)} pts since ${EARLIEST_YEAR}`;
 }
 
+// Trend chart
+
+function buildChart(county) {
+  const years = Object.keys(county.data).sort();
+  const svgNS = "http://www.w3.org/2000/svg";
+
+  const W = 360, H = 120;
+  const padL = 30, padR = 8, padT = 8, padB = 24;
+  const chartW = W - padL - padR;
+  const chartH = H - padT - padB;
+
+  const allRates = years.flatMap((y) => [
+    county.data[y].foodInsecurityRate,
+    county.data[y].childFoodInsecurityRate,
+  ]);
+  const maxRate = Math.ceil(Math.max(...allRates) / 5) * 5;
+
+  const svg = document.createElementNS(svgNS, "svg");
+  svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
+  svg.setAttribute("class", "trend-chart");
+  svg.setAttribute("role", "img");
+
+  const title = document.createElementNS(svgNS, "title");
+  title.textContent =
+    `Food insecurity trend for ${county.county} county. ` +
+    years
+      .map(
+        (y) =>
+          `${y}: overall ${county.data[y].foodInsecurityRate}%, children ${county.data[y].childFoodInsecurityRate}%`,
+      )
+      .join(". ");
+  svg.appendChild(title);
+
+  // Gridlines and Y labels at 0%, 50%, and 100% of maxRate
+  [0, 0.5, 1].forEach((frac) => {
+    const yVal = Math.round(maxRate * frac);
+    const y = padT + chartH - frac * chartH;
+
+    const line = document.createElementNS(svgNS, "line");
+    line.setAttribute("x1", padL);
+    line.setAttribute("y1", y);
+    line.setAttribute("x2", W - padR);
+    line.setAttribute("y2", y);
+    line.setAttribute("class", "chart-grid");
+    svg.appendChild(line);
+
+    const label = document.createElementNS(svgNS, "text");
+    label.setAttribute("x", padL - 4);
+    label.setAttribute("y", y);
+    label.setAttribute("class", "chart-y-label");
+    label.setAttribute("text-anchor", "end");
+    label.setAttribute("dominant-baseline", "middle");
+    label.textContent = `${yVal}%`;
+    svg.appendChild(label);
+  });
+
+  // Bars
+  const groupW = chartW / years.length;
+  const barPairW = groupW * 0.55;
+  const barW = barPairW / 2 - 1;
+
+  years.forEach((year, i) => {
+    const overallRate = county.data[year].foodInsecurityRate;
+    const childRate = county.data[year].childFoodInsecurityRate;
+    const groupX = padL + i * groupW;
+    const pairX = groupX + (groupW - barPairW) / 2;
+
+    const overallH = (overallRate / maxRate) * chartH;
+    const childH = (childRate / maxRate) * chartH;
+
+    const overallRect = document.createElementNS(svgNS, "rect");
+    overallRect.setAttribute("x", pairX);
+    overallRect.setAttribute("y", padT + chartH - overallH);
+    overallRect.setAttribute("width", barW);
+    overallRect.setAttribute("height", overallH);
+    overallRect.setAttribute("class", "chart-bar-overall");
+    svg.appendChild(overallRect);
+
+    const childRect = document.createElementNS(svgNS, "rect");
+    childRect.setAttribute("x", pairX + barW + 2);
+    childRect.setAttribute("y", padT + chartH - childH);
+    childRect.setAttribute("width", barW);
+    childRect.setAttribute("height", childH);
+    childRect.setAttribute("class", "chart-bar-child");
+    svg.appendChild(childRect);
+
+    const yearLabel = document.createElementNS(svgNS, "text");
+    yearLabel.setAttribute("x", groupX + groupW / 2);
+    yearLabel.setAttribute("y", H - 8);
+    yearLabel.setAttribute("class", "chart-year-label");
+    yearLabel.setAttribute("text-anchor", "middle");
+    yearLabel.textContent = year;
+    svg.appendChild(yearLabel);
+  });
+
+  // KY average reference line for selected year
+  const avg = getAverage();
+  if (avg <= maxRate) {
+    const avgY = padT + chartH - (avg / maxRate) * chartH;
+
+    const avgLine = document.createElementNS(svgNS, "line");
+    avgLine.setAttribute("x1", padL);
+    avgLine.setAttribute("y1", avgY);
+    avgLine.setAttribute("x2", W - padR);
+    avgLine.setAttribute("y2", avgY);
+    avgLine.setAttribute("class", "chart-avg-line");
+    svg.appendChild(avgLine);
+
+    const avgLabel = document.createElementNS(svgNS, "text");
+    avgLabel.setAttribute("x", W - padR - 2);
+    avgLabel.setAttribute("y", avgY - 3);
+    avgLabel.setAttribute("class", "chart-avg-label");
+    avgLabel.setAttribute("text-anchor", "end");
+    avgLabel.textContent = `KY avg ${selectedYear}`;
+    svg.appendChild(avgLabel);
+  }
+
+  return svg;
+}
+
+// Render
+
 function renderList(data) {
   ul.innerHTML = "";
   const avg = getAverage();
@@ -128,13 +286,22 @@ function renderList(data) {
 
     li.dataset.county = county.county.toLowerCase();
 
-    Object.keys(county.data)
-      .sort()
-      .forEach((year) => {
-        const p = document.createElement("p");
-        p.textContent = `Year: ${year} - Overall: ${county.data[year].foodInsecurityRate}% | Children: ${county.data[year].childFoodInsecurityRate}%`;
-        div.appendChild(p);
-      });
+    // Chart
+    div.appendChild(buildChart(county));
+
+    // Chart legend
+    const chartLegend = document.createElement("div");
+    chartLegend.className = "chart-legend";
+    chartLegend.setAttribute("aria-hidden", "true");
+    const overallItem = document.createElement("span");
+    overallItem.className = "chart-legend-item chart-legend-overall";
+    overallItem.textContent = "Overall";
+    const childItem = document.createElement("span");
+    childItem.className = "chart-legend-item chart-legend-child";
+    childItem.textContent = "Children";
+    chartLegend.appendChild(overallItem);
+    chartLegend.appendChild(childItem);
+    div.appendChild(chartLegend);
 
     const rate = getCurrentRate(county);
     li.classList.add(rate > avg ? "above-average" : "below-average");
@@ -181,13 +348,7 @@ function renderList(data) {
   updateLegend();
 }
 
-function updateSummary() {
-  const summary = document.getElementById("summary");
-  const avg = getAverage();
-  const count = counties.filter((county) => getCurrentRate(county) > avg).length;
-  const label = showChild ? "child food insecurity" : "food insecurity";
-  summary.textContent = `${count} of ${counties.length} counties are above the Kentucky average for ${label}`;
-}
+// Data
 
 async function getData() {
   try {
@@ -217,6 +378,7 @@ async function getData() {
       };
     });
 
+    applySortOrder();
     renderList(counties);
     updateSummary();
     updateCallout();
@@ -227,55 +389,82 @@ async function getData() {
   }
 }
 
+// URL state
+
+function pushState() {
+  const params = new URLSearchParams();
+  if (selectedYear !== "2023") params.set("year", selectedYear);
+  if (sort.value !== "alpha") params.set("sort", sort.value);
+  if (showChild) params.set("rate", "child");
+  if (search.value) params.set("search", search.value);
+  const query = params.toString();
+  history.replaceState(null, "", query ? `?${query}` : location.pathname);
+}
+
+function restoreState() {
+  const params = new URLSearchParams(location.search);
+
+  const year = params.get("year");
+  if (VALID_YEARS.includes(year)) {
+    selectedYear = year;
+    yearSelect.value = year;
+  }
+
+  const sortVal = params.get("sort");
+  if (VALID_SORTS.includes(sortVal)) {
+    sort.value = sortVal;
+  }
+
+  if (params.get("rate") === "child") {
+    showChild = true;
+    toggleRate.setAttribute("aria-pressed", "true");
+    toggleRate.textContent = "Show overall rates";
+  }
+
+  const searchVal = params.get("search");
+  if (searchVal) {
+    search.value = searchVal;
+  }
+}
+
+// Initialize
+restoreState();
 getData();
 
-const button = document.getElementById("toggle-explainer");
-const explainer = document.getElementById("explainer");
+// Event listeners
+
 button.addEventListener("click", () => {
   const expanded = explainer.classList.toggle("expanded");
   button.setAttribute("aria-expanded", String(expanded));
 });
 
-const search = document.getElementById("search");
-search.addEventListener("input", applySearch);
-
-const sort = document.getElementById("sort");
-sort.addEventListener("change", () => {
-  const value = sort.value;
-  if (value === "high") {
-    counties.sort((a, b) => getCurrentRate(b) - getCurrentRate(a));
-  } else if (value === "low") {
-    counties.sort((a, b) => getCurrentRate(a) - getCurrentRate(b));
-  } else {
-    counties.sort((a, b) => a.county.localeCompare(b.county));
-  }
-  renderList(counties);
+search.addEventListener("input", () => {
+  applySearch();
+  pushState();
 });
 
-const yearSelect = document.getElementById("year");
+sort.addEventListener("change", () => {
+  applySortOrder();
+  renderList(counties);
+  pushState();
+});
+
 yearSelect.addEventListener("change", () => {
   selectedYear = yearSelect.value;
-  if (sort.value === "high") {
-    counties.sort((a, b) => getCurrentRate(b) - getCurrentRate(a));
-  } else if (sort.value === "low") {
-    counties.sort((a, b) => getCurrentRate(a) - getCurrentRate(b));
-  }
+  applySortOrder();
   renderList(counties);
   updateSummary();
   updateCallout();
+  pushState();
 });
 
-const toggleRate = document.getElementById("toggle-rate");
 toggleRate.addEventListener("click", () => {
   showChild = !showChild;
   toggleRate.setAttribute("aria-pressed", String(showChild));
   toggleRate.textContent = showChild ? "Show overall rates" : "Show child rates";
-  if (sort.value === "high") {
-    counties.sort((a, b) => getCurrentRate(b) - getCurrentRate(a));
-  } else if (sort.value === "low") {
-    counties.sort((a, b) => getCurrentRate(a) - getCurrentRate(b));
-  }
+  applySortOrder();
   renderList(counties);
   updateSummary();
   updateCallout();
+  pushState();
 });

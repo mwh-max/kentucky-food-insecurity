@@ -36,9 +36,23 @@ function getTrend(county) {
   if (selectedYear === EARLIEST_YEAR) return null;
   const key = showChild ? "childFoodInsecurityRate" : "foodInsecurityRate";
   const diff = county.data[selectedYear][key] - county.data[EARLIEST_YEAR][key];
-  if (diff > 0.5) return { symbol: "↑", label: `worsened since ${EARLIEST_YEAR}`, cls: "trend-up" };
-  if (diff < -0.5) return { symbol: "↓", label: `improved since ${EARLIEST_YEAR}`, cls: "trend-down" };
-  return { symbol: "→", label: `stable since ${EARLIEST_YEAR}`, cls: "trend-flat" };
+  if (diff > 0.5)
+    return {
+      symbol: "↑",
+      label: `worsened since ${EARLIEST_YEAR}`,
+      cls: "trend-up",
+    };
+  if (diff < -0.5)
+    return {
+      symbol: "↓",
+      label: `improved since ${EARLIEST_YEAR}`,
+      cls: "trend-down",
+    };
+  return {
+    symbol: "→",
+    label: `stable since ${EARLIEST_YEAR}`,
+    cls: "trend-flat",
+  };
 }
 
 function highlightMatch(text, term) {
@@ -113,7 +127,9 @@ function updateLegend() {
 function updateSummary() {
   const summary = document.getElementById("summary");
   const avg = getAverage();
-  const count = counties.filter((county) => getCurrentRate(county) > avg).length;
+  const count = counties.filter(
+    (county) => getCurrentRate(county) > avg,
+  ).length;
   summary.textContent = `${count} of ${counties.length} counties are above the Kentucky average`;
 }
 
@@ -123,8 +139,12 @@ function buildChart(county) {
   const years = Object.keys(county.data).sort();
   const svgNS = "http://www.w3.org/2000/svg";
 
-  const W = 360, H = 120;
-  const padL = 30, padR = 8, padT = 8, padB = 24;
+  const W = 360,
+    H = 120;
+  const padL = 30,
+    padR = 8,
+    padT = 8,
+    padB = 24;
   const chartW = W - padL - padR;
   const chartH = H - padT - padB;
 
@@ -266,6 +286,11 @@ function renderList(data) {
     chartLegend.appendChild(childItem);
     div.appendChild(chartLegend);
 
+    const recoveryLink = document.createElement("a");
+    recoveryLink.textContent = "Recover KY";
+    recoveryLink.href = "https://recoverky.health";
+    div.appendChild(recoveryLink);
+
     const rate = getCurrentRate(county);
     li.classList.add(rate > avg ? "above-average" : "below-average");
 
@@ -326,8 +351,10 @@ async function getData() {
       yearlyAverages[year] = {
         overall: parseFloat(
           (
-            counties.reduce((sum, c) => sum + c.data[year].foodInsecurityRate, 0) /
-            counties.length
+            counties.reduce(
+              (sum, c) => sum + c.data[year].foodInsecurityRate,
+              0,
+            ) / counties.length
           ).toFixed(1),
         ),
         child: parseFloat(
@@ -422,7 +449,9 @@ yearSelect.addEventListener("change", () => {
 toggleRate.addEventListener("click", () => {
   showChild = !showChild;
   toggleRate.setAttribute("aria-pressed", String(showChild));
-  toggleRate.textContent = showChild ? "Show overall rates" : "Show child rates";
+  toggleRate.textContent = showChild
+    ? "Show overall rates"
+    : "Show child rates";
   applySortOrder();
   renderList(counties);
   updateSummary();
